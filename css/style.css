@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 12vh;
+  background: #236AB9 url("../images/moon.png") no-repeat 90% 5px;
+  background-size: 6%;
+  /* background-color: #236AB9; */
+  color: #EEF4FC;
+  padding: 1em;
+}
+
+nav {
+  width: 100%;
+  height: 1.5em;
+  background-color: #236AB9;
+  color: #EEF4FC;
+}
+
+a {
+  color: #EEF4FC;
+}
+
+main {
+  width: 80%;
+  height: 24em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: brown;
+}
+
+section {
+  width: 80%;
+  height: 100%;
+  float: left;
+  background-color: #FDA058;
+  padding: 0.5em;
+}
+
+aside {
+  width: 20%;
+  height: 100%;
+  float: left;
+  background-color: #B85B14;
+  color: #D4E4F7;
+  padding: 0.5em;
+}
+
+footer {
+  width: 100%;
+  height: 4em;
+  clear: both;
+  background-color: #341C09;
+  color: #FC7307;
+  text-align: center;
+  padding-top: 0.5em;
+}
